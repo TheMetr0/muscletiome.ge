@@ -1,0 +1,41 @@
+.about_content{
+    text-align: center;
+    margin: 20px;
+}
+.about_header_conteiner{
+    text-align: center;
+    margin: 30px;
+}
+.slider_header_container{
+    padding: 10px;
+}
+.slider{
+    padding: 15px;
+    margin: 30px;
+    width: -webkit-fill-available;
+    height: 400px;
+    
+}
+.product_contianer{
+    
+    
+    border: 2px solid red;
+    width: 200px;
+    /* width: 20%; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+
+
+.product_image_container{
+
+}
+.product_image{
+    height: 300px;
+    
+}

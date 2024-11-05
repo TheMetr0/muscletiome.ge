@@ -1,0 +1,302 @@
+
+
+
+.main_content{
+    height: 100vh;
+}
+.video_container{
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.bg_video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.color_overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.Brand_name{
+    letter-spacing: 8px;
+    font-size: 150px;   
+    fill-opacity: 0.1;
+    -webkit-text-stroke: 0.2vw rgb(255, 255, 255);
+    animation: load 0.9s 1;
+}
+.main_text_container{
+    
+    color: white;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, .54); */
+    width: 50%;
+    height: 2px;
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+.text_container_1{
+    padding-bottom: 30px;
+}
+.text_container_2{
+    padding-top: 30px;
+}
+.text_1{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.text_2{
+    border-top: 2px solid rgb(255, 255, 255);
+}
+.yt_video{
+    width: 1000px;
+    height:515px;
+}
+
+/********************************** PHONE SETTINGS **********************************/
+
+.phone_nav{
+    display: none;
+}
+.phone_nav_icon_container{
+    color: white;
+    font-size: 50px;
+}
+.phone_navigation_options_container{
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background: black;
+    height: 17.7rem;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    display: none;
+    animation-name: navbat_show;
+    animation-duration: 1s;
+}
+
+@keyframes navbat_show{
+    from{
+        height: 0.7rem;
+    }
+    to{
+        height: 17.7rem;
+    }
+}
+
+
+
+/********************************** PHONE SETTINGS **********************************/
+
+@keyframes load{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-top: -40px;
+    }
+    85%{
+        letter-spacing:8px;
+        margin-bottom: -40px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:1470px){
+    .color_overlay{
+        display: flex;
+        flex-direction: column;
+    }
+    .video_container {
+       
+        height: 80%;
+        
+    }
+
+    .main_content {
+        height: 90vh;
+    }
+}
+
+
+@media only screen and (max-width:1116px){
+    .glider-slide {
+        min-width: 30%;
+    }
+
+    .about_content{
+        margin: 0px;
+    }
+
+        .navigation_options_container{
+            
+            display: none;
+        }
+        .phone_nav{
+            display: block;
+        }
+
+        .navigation_bar{
+            position: absolute;
+        }
+        .color_overlay{
+            display: flex;
+            flex-direction: column;
+        }
+        .about_Yt_video{
+            height: 600px;
+            width: -webkit-fill-available;
+        }
+        .yt_video {
+            width: 100%;
+            height: 90%;
+        }
+
+        .video_container {
+            
+            height: 70%;
+            
+        }
+
+        .main_content {
+            height: 80vh;
+        }
+
+
+}
+
+
+
+@media only screen and (max-width:824px){
+    .about_Yt_video{
+        height: 550px;
+        width: -webkit-fill-available;
+    }
+    .yt_video {
+        width: 100%;
+        height: 80%;
+    }
+    .slider {
+        /* padding: 15px; */
+        margin: 10px;
+        width: -webkit-fill-available;
+        height: 400px;
+    }
+    .about_header{
+        font-size: 22px;
+    }
+}
+
+
+
+@media only screen and (max-width:800px){
+    .Brand_name{
+        font-size: 100px ;
+    }
+}
+
+@media only screen and (max-width:644px){
+    .about_header{
+        font-size: 19px;
+    }
+    .about_Yt_video {
+        height: 400px;
+        
+    }
+    .yt_video {
+        width: 100%;
+        height: 90%;
+    }
+    .main_text_container{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:550px){
+    .slider {
+        padding: 0px;
+        /* margin: 30px; */
+        
+    }
+    .video_container {
+       
+        height: 50%;
+        
+    }
+    .Brand_name{
+        font-size: 50px ;
+    }
+    .text_container_1{
+        margin-bottom: 90px;
+        padding-bottom: 0px;
+    }
+
+    .text_container_2{
+        padding-top: 30px;
+    }
+    .mtlogo {
+        width: 80px;
+    }
+    .main_content {
+        height: 60vh;
+    }
+    .about_Yt_video{
+        height: 350PX;
+    }
+    .yt_video {
+        width: 100%;
+        height: 90%;
+    }
+
+}
+
+@media only screen and (max-width:375px){
+    .mtlogo {
+        width: 50px;
+    }
+    .video_container {
+            
+        height: 80%;
+        
+    }
+
+    .main_content {
+        height: 90vh;
+    }
+
+    .about_Yt_video{
+        height: 200px;
+    }
+    .yt_video {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width:350px){
+    .main_text_container{
+        display: none;
+    }
+    .mtlogo {
+        width: 80px;
+    }
+}
