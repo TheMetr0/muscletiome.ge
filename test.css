@@ -1,0 +1,254 @@
+@media only screen and (max-width:1447px){
+    
+    .popup_main_description {
+        font-size: 18px;
+    }
+    /* .product_instruction{
+        background: black;
+        padding: 6px;
+        border: 1px solid red;
+    } */
+    .popup_suppliment_description {
+        font-size: 21px;
+        
+        border: none;
+        
+        background-color: transparent;
+    }
+    /* .popup_main_description {
+        padding: 6px;
+        background-color: black;
+        border: 2px solid red;
+    } */
+    /* .product_instruction {
+        font-size: 17px;
+        background: black;
+        padding: 6px;
+        border: 1px solid red;
+    } */
+    .popup_propertie {
+        font-size: 16px;
+    }
+    .popup_content {
+        flex-direction: column;
+    }
+    .popup_suppliment_description {
+        height: 100%;
+    }
+    .product_description {
+        width: 100%;
+    }
+    .popup_main_description {
+        font-size: 14px;
+        /* height: 468px; */
+    }
+    .popup_propertie {
+        font-size: 14px;
+    }
+ }
+
+@media only screen and (max-width:766px){
+    .popup_image_container{
+        height: 33%;
+    }
+    .product_instruction {
+        margin-top: 0px;
+    }
+    .popup_main_description {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 50%;
+        font-size: 13px;
+        /* height: 468px; */
+        flex-direction: column;
+    }
+    .popup_content {
+        flex-direction: column;
+    }
+    .popup_suppliment_description {
+        height: 100%;
+    }
+    .product_description {
+        width: 100%;
+    }
+    .popup_main_description {
+        font-size: 14px;
+        /* height: 468px; */
+    }
+    .popup_propertie {
+        font-size: 14px;
+    }
+    .popup_suppliment_description {
+        font-size: 21px;
+        font-size: small;
+        /* border-radius: 20px; */
+        border: 2px solid red;
+        /* display: flex; */
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+ }
+
+ @media only screen and (max-width:763px){
+
+    .product_description {
+        height: fit-content;
+        width: 100%;
+    }
+    .popup_image_container {
+        height: 35%;
+    }
+    .popup_content {
+        flex-direction: column;
+    }
+    .popup_suppliment_description {
+        height: 100%;
+    }
+    .product_description {
+        width: 100%;
+    }
+    .popup_main_description {
+        font-size: 14px;
+        /* height: 468px; */
+    }
+    .popup_propertie {
+        font-size: 14px;
+    }
+    .product_description {
+        height: inherit;
+        width: 100%;
+    }
+    .popup_main_description {
+        align-items: center;
+        display: flex;
+        height: 50%;
+        font-size: 13px;
+        /* height: 468px; */
+    }
+    .product_properties_container{
+        height: 50%;
+    }
+ }
+
+ @media only screen and (max-width:691px){
+    .popup_main_description {
+        font-size: 13px;
+        /* height: 468px; */
+    }
+    .popup_content {
+        padding-right: 0px;
+        margin: 0px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .popup_content{
+    margin: 10px;
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
+    /* height: 300px;
+    width: 30.33%;
+    margin: 20px; */
+    
+    padding-right: 10px;
+    /* border: 2px solid rgba(0, 0, 0, 0.329); */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.8s;
+}
+.product_properties_container{
+    
+}
+
+.popup_suppliment_description{
+    
+    font-size: 21px;
+    font-size: small;
+    border-radius: 20px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+}
+
+.popup_propertie{
+    font-size: 17px;
+}
+
+.product_instruction{
+    margin-top: 30px;
+}
+
+.popup_product_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+.popup_main_description{
+    font-size: 17px;
+}
+
+.popup_image_container{
+
+}
+
+
+.popup_main_description {
+    font-size: 15px;
+}
+.colagen_list{
+
+}
+.colagen_desc{
+
+}
+
+.collagen_description{}
