@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.product_popup{
+    padding: 20px;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    z-index: 999;
+}
+
+
+.del_button_container{
+    text-align: end;
+}
+
+.del_button{
+    font-family: Rubik;
+    width: 100%;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+    
+}
+
+
+
+/* @media only screen and (max-width:1364px){
+    .collagen_description {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:900px){
+    .collagen_description {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:764px){
+    .popup_suppliment_description {
+        margin-top: 0px;
+        padding: 5px;
+    }
+    .popup_propertie {
+        font-size: 15px;
+    }
+    .product_instruction {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:762px){
+    .popup_suppliment_description {
+        
+        height: auto;
+    }
+    .popup_image_container {
+        margin: 0;
+    }
+    .product_description {
+        height: 100%;
+    }
+    .colagen_list {
+        background: black;
+        border: 2px solid red;
+        border-radius: 20px;
+        height: auto;
+    }
+    .colagen_desc{
+    border: none;
+    background-color: transparent;
+    }
+}
+@media only screen and (max-width:720px){
+    .popup_image_container {
+        height: 100%;
+        margin: 0;
+    }
+    .popup_main_description {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:591px){
+    .popup_main_description {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:577px){
+    .popup_main_description {
+        font-size: 11px;
+    }
+} */
