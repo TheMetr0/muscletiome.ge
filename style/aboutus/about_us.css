@@ -1,0 +1,449 @@
+.middle_content{
+    
+    height: 100vh;
+}
+.color_overlay{
+    padding: 20px;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.middle_content_header_container{
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    /* height: 30%; */
+    display: inline-flex;
+}
+.left_content{
+    width: 50%;
+    align-items:start;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border-left: 9px solid white; */
+}
+
+.left_content_header{
+    padding: 4px;
+    border-left: 7px solid white;
+    font-size: 60px;
+}
+.left_content_description{
+    
+}
+.right_content{
+    position: relative;
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.list_description_text{
+
+}
+.right_content_main_header{
+
+    margin-bottom: 20px;
+}
+.right_contenct_1_desc_container{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.right_1_logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_1_text_container{
+    width: 90%;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.right_1_header_container{
+   
+}
+.right_1_header{
+    margin-bottom: 10px;
+}
+.middle_content_background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../../src/about_main_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.produc_quality_logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-image: url(../../src/icons/abus_icon_quality.png);
+}
+.specialization_logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-image: url(../../src/icons/abus_icon_sports.png);
+}
+.safety_logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    background-image: url(../../src/icons/abus_icon_safety.png);
+}
+
+.list_header_text{
+
+}
+@media only screen and (max-width:1596px){
+    .right_content{
+        font-size: 13px;
+    }
+
+}
+@media only screen and (max-width:1350px){
+    .right_content{
+        font-size: 12px;
+    }
+    .left_content {
+        font-size: 13px;
+    }
+
+}
+@media only screen and (max-width:1283px){
+    .abus_bottom_text {
+        font-size: 17px;
+    }
+
+    .right_content{
+        font-size: 12px;
+    }
+    .left_content {
+        font-size: 13px;
+    }
+    .right_content_main_header {
+        margin-bottom: 6px;
+    }
+
+}
+@media only screen and (max-width:1185px){
+    .list_header_text {
+        font-size: 20px;
+    }
+    .list_description_text{
+        font-size: 17px;
+    }
+    .right_1_text_container {
+        margin: 4px;
+    }
+    .right_content {
+        font-size: 11px;
+    }
+
+}
+@media only screen and (max-width:1094px){
+    .list_description_text{
+        font-size: 15px;
+    }
+    .right_1_text_container {
+        margin: 4px;
+    }
+    .right_content {
+        font-size: 10px;
+    }
+    .left_content_header {
+        font-size: 56px;
+    }
+}
+@media only screen and (max-width:1037px){
+    .abus_bottom_text {
+        font-size: 16px;
+    }
+    .middle_content_header_container {
+        flex-direction: column;
+    }
+    .right_content {
+        width: 100%;
+        flex-direction: row;
+    }
+    .right_contenct_1_desc_container {
+        height: 200px;
+        flex-direction: column;
+        width: 40%;
+    }
+    .right_1_logo_container{
+        width: 93%;
+        height: 100%;
+    }
+    .right_1_header_container{
+        text-align: center;
+    }
+    .right_1_description{
+        text-align: center;
+    }
+    .right_1_text_container {
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 4px;
+    }
+    .right_content_main_header{
+        display: none;
+    }
+
+    .left_content {
+        width: 100%;
+    }
+    .left_content br {
+       display: none;
+    }
+    .left_content_header {
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 45px;
+        border-bottom: 7px solid white;
+        border-left: none;
+        width: 100%;
+    }
+    .left_content_description {
+        text-align: center;
+    }
+}
+@media only screen and (max-width:981px){
+   
+    .list_header_text {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:891px){
+    .list_header_text {
+        font-size: 16px;
+    }
+    .bottom_list_1 {
+        margin: 15px;
+    }
+}
+@media only screen and (max-width:877px){
+   
+    .left_content_header {
+        font-size: 41px;
+    }
+    .right_1_description {
+        height: 100px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:749px){
+    
+    
+    .left_content_header {
+        font-size: 39px;
+    }
+}
+@media only screen and (max-width:716px){
+    
+    .left_content_header {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:696px){
+    
+    
+   .right_1_header{
+    font-size: 12px;
+   }
+}
+
+@media only screen and (max-width:669px){
+    
+    .right_1_header{
+     font-size: 11px;
+    }
+    .right_1_description {
+        height: 112px;
+    }
+ }
+ @media only screen and (max-width:652px){
+   
+    
+    .left_content_header {
+        font-size: 32px;
+    }
+ }
+ @media only screen and (max-width:602px){
+   
+    
+    .left_content_header {
+        font-size: 30px;
+    }
+ }
+
+ @media only screen and (max-width:569px){
+    
+    .left_content_header {
+        font-size: 28px;
+    }
+ }
+
+ @media only screen and (max-width:537px){
+    .abus_bottom_text {
+        font-size: 15px;
+    }
+
+    .abus_bottom_text_container {
+        padding: 4px;
+        width: 50%;
+    }
+   
+    
+    .left_content_header {
+        font-size: 25px;
+    }
+    .left_content_description {
+        font-size: 12px;
+    }
+    .right_1_header {
+        font-size: 10px;
+    }
+ }
+
+ @media only screen and (max-width:492px){
+    
+    .left_content_header {
+        font-size: 23px;
+    }
+    .right_1_header {
+        font-size: 9px;
+    }
+    .right_1_description {
+        font-size: 9px;
+        height: 133px;
+    }
+    
+ }
+
+ @media only screen and (max-width:457px){
+
+    
+    .left_content_header {
+        font-size: 21px;
+    }
+    .right_1_header {
+        font-size: 8px;
+    }
+ }
+
+ @media only screen and (max-width:426px){
+
+    .abus_bottom_text {
+        font-size: 14px;
+    }
+    
+    .left_content_header {
+        font-size: 19px;
+    }
+    .left_content_description {
+        font-size: 10px;
+    }
+ }
+ @media only screen and (max-width:399px){
+
+    
+    .left_content_header {
+        font-size: 17px;
+    }
+    .left_content_description {
+        font-size: 8px;
+    }
+    .right_1_header {
+        font-size: 7px;
+    }
+    .right_1_description {
+        font-size: 7px;
+        height: 133px;
+    }
+ }
+ @media only screen and (max-width:360px){
+    .abus_bottom_text {
+        font-size: 12px;
+    }
+    
+    .left_content_header {
+        font-size: 15px;
+    }
+    .left_content_description {
+        font-size: 7px;
+    }
+    .right_1_header {
+        font-size: 6px;
+    }
+ }
+ @media only screen and (max-width:336px){
+    .abus_bottom_text {
+        font-size: 11px;
+    }
+
+ }
+
+ @media only screen and (max-width:329px){
+
+    
+    .left_content_header {
+        font-size: 13px;
+    }
+    .left_content_description {
+        font-size: 6px;
+    }
+    .right_1_header {
+        font-size: 5px;
+    }
+ }
+
+ @media only screen and (max-width:298px){
+    .left_content_header {
+        font-size: 12px;
+    }
+ }
+
+ @media only screen and (max-width:280px){
+    .left_content_header {
+        font-size: 10px;
+    }
+    
+    .left_content_description {
+        font-size: 5px;
+    }
+    .right_1_header {
+        font-size: 4px;
+    }
+    .right_1_description {
+        font-size: 6px;
+        height: 133px;
+    }
+ }
